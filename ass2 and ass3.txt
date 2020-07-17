@@ -1,0 +1,28 @@
+               Assignment-3
+
+1>  Which field of the customer table is primary key ?
+ => cnum
+
+
+2> what is the 4th column of the customer table ?
+=> rating
+
+
+3> what is the another name for row ? for column?
+=> rows are knows as tuples/opportuinity/entity
+   columns are known as attributes/methods
+
+4> why isn't it possible to see the first five rows of a table?
+=>
+
+                Assignment-4
+
+1> does ANSI recognise the data type date?
+=> yes
+
+
+
+2> which subdivision of sql is used to insert values in table?
+=> DML 
+   DATA MANIPULATION LANGUAGE it will also support update ,delete and statement.
+   
