@@ -1,7 +1,7 @@
                Assignment-3
 
 1>  Which field of the customer table is primary key ?
- => cnum
+ => cnum  / customer table
 
 
 2> what is the 4th column of the customer table ?
@@ -13,7 +13,7 @@
    columns are known as attributes/methods
 
 4> why isn't it possible to see the first five rows of a table?
-=>
+=> because tuple dont have records
 
                 Assignment-4
 
