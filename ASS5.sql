@@ -1,0 +1,57 @@
+SELECT * FROM ORDERS WHERE AMT > 1000;
+
+SELECT * FROM SALESPEOPLE WHERE 
+     CITY = 'LONDON'  AND COMM >.10;
+     
+SELECT * FROM CUSTOMER WHERE CITY = 'ROME'
+		OR RATING > 100;
+        
+SELECT * FROM ORDERS;
+        
+SELECT *
+FROM ORDERS
+WHERE (AMT < 1000
+       OR  (ODATE = ‘1990-10-03’
+               AND CNUM > 2003));
+                          
+
+
+ONUM    AMT     ODATE      CNUM    SNUM
+
+3001    18.69     03-OCT-90     2008    1007
+3003    767.19     03-OCT-90     2001    1001
+3005    5160.45    03-OCT-90     2003    1002
+3009    1713.23    04-OCT-90     2002    1003
+3007    75.75    04-OCT-90    2004   1002
+3008   4723     05-OCT-90     2006    1001
+3010    1309.95    06-OCT-90     2004    1002
+3011    9891.88    06-OCT-90     2006    1001
+
+
+
+        
+
+Select * from Orders
+ where (amt < 1000 OR
+ NOT (odate = ‘1990-10-03’
+ AND cnum > 2003)); 
+
+ONUM    AMT     ODATE      CNUM    SNUM
+
+3001    18.69     03-OCT-90   2008    1007
+3003    767.19     03-OCT-90     2001    1001
+3006    1098.16    03-OCT-90     2008    1007
+3009    1713.23   04-OCT-90     2002    1003
+3007    75.75     04-OCT-90     2004    1002
+3008    4723     05-OCT-90     2006    1001
+3010    1309.95    06-OCT-90     2004    1002
+3011    9891.88    06-OCT-90     2006    1001
+
+ 
+ SELECT 
+ SNUM,
+ SNAME,
+ CITY,
+ COMM
+ FROM SALESPEOPLE
+ WHERE COMM BETWEEN 0.12 AND 0.14;
