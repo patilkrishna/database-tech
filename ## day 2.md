@@ -113,18 +113,28 @@ and then acquires oracle but then sun microsoft is now acquired by oracle so mys
 
 #### 4-subdivisions of my -sql
 **DDL -DATA DEFINITION LANGUAGE**
+
 	      *CREATE*
 	      *DROP*
 	      *ALT TABLE*
+	      
+	      
 **DML -DATA MANIPULATION LANGUAGE**
-			*INSERT*
-			*UPDATE*
-			*DELETE*
+
+	     *INSERT*
+	     *UPDATE*
+	     *DELETE*
+			
 **DCL-DATA CONTROL LANGUAGE**
+
             *GRANT*
             *REVOKE*
+	    
  **DQL-DATA QUERY LANGUAGE**
-			*SELECT*
+			
+	   *SELECT*
+			
+			
 #### Fifth subdivision is DTL/TCL only work with oracle and mysql
 **DTL-DATA TRANSACTION LANGUAGE
     TCL-TRANSACTION CONTROL LANGUAGE**
