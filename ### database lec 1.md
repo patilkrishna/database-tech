@@ -88,7 +88,7 @@
  
  8. **dbms is not suitable for multi users while rdbms is suitable because of less traffic**
  
- 9. **In dbms file level locking but in rdbms row level locking **
+ 9. **In dbms file level locking but in rdbms row level locking**
   
   
 
