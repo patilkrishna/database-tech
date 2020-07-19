@@ -6,7 +6,8 @@
 ####  difference between database and rdbms
 
  **introduction to database**
-	  **data** 
+ 
+  **data** 
 	  *facts that can be recorded text, video speeches etc.* 
 	  *data is always in a raw form* 
   
@@ -63,20 +64,30 @@
 ### difference between dbms and rdbms
 
  - **nomenclature**	
+ 
  - In dbms columns are known as **fields**.
- - 	In rdbms columns are known as **Method/columns/attributes** 
+ - In rdbms columns are known as **Method/columns/attributes**
+ 
  - In dbms rows are known as **records** 
  - In rdbms rows are known as **opportunity/rows/tuple/entity** 
+ 
  - In dbms tables are known as **relation**
  - In rdbms tables are known as **table/entity class /applet/matrix**
  
  2. **Dbms required more programming than Rdbms**
+ 
  3. **dbms works on file system rdbms works in tabular form**
+ 
  4. **dbms takes more time rdbms takes less time**
+ 
  5. **In dbms the relation between two files maintain programmatically  but where in rdbms the relation forms during creating a table**
+ 
  6. **processing is takes place on client mode while in rdbms processing takes place on server machine**
+ 
  7. **dbms has high network traffic while rdbms has less network traffic**
+ 
  8. **dbms is not suitable for multi users while rdbms is suitable because of less traffic**
+ 
  9.**In dbms file level locking but in rdbms row level locking **
   
   
