@@ -1,0 +1,13 @@
+SELECT ONUM , CNUM FROM ORDERS WHERE CNUM = (SELECT CNUM FROM CUSTOMER WHERE CNAME = 'CISNEROS');
+
+SELECT CNAME , RATING FROM CUSTOMER WHERE CNUM IN (SELECT CNUM FROM ORDERS WHERE AMT >( SELECT AVG(AMT) FROM ORDERS) );
+
+Select snum , sum(amt)
+from orders
+group by snum
+having sum(amt) > ( select max(amt)
+           from orders);
+           
+           
+SELECT SNUM , SUM(AMT) FROM ORDERS GROUP BY SNUM 
+		HAVING SUM(AMT) > (SELECT MAX(AMT) FROM ORDERS);
